@@ -1,0 +1,32 @@
+.dark-mode {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+}
+
+.heading>h1 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.form-container {
+    border-color: white;
+    border-style: solid;
+    margin: 100px 150px 50px 150px;
+    padding: 50px 150px 50px 150px;
+}
+
+.first {
+    padding: 10px;
+}
+
+.second {
+    padding: 10px
+}
+
+.form-container>button {
+    background-color: yellowgreen;
+    border: none;
+    padding: 10px 110px;
+    
+}
