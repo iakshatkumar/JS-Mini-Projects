@@ -1,0 +1,57 @@
+.dark-mode {
+    background-color: #212121;
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+.button {
+    padding: 20px;
+    margin: 10px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: orange;
+}
+
+
+.button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 11px;
+}
+
+.decription {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+
+
+
+
