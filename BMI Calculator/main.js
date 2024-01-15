@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
     if (height === '' || height < 0 || isNaN(height)) {
         const message = document.createTextNode(`Please give a valid height ${height}`)
         result.appendChild(message)
-    } else if (weight == '' || weight < 0 || isNaN(weight)) {
+    } else if (weight === '' || weight < 0 || isNaN(weight)) {
         const message = document.createTextNode(`Please give a valid weight ${weight}`)
         result.appendChild(message)
     } else {
