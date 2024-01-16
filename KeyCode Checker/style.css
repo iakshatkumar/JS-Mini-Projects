@@ -1,0 +1,34 @@
+.dark-mode {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+}
+
+.header>h1 {
+    font-family: monospace;
+    font-size: 50px;
+    color: tomato;
+}
+
+
+span {
+    background-color: white;
+    color: grey;
+    padding: 20px 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 35vh;
+}
+
+p {
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+}
