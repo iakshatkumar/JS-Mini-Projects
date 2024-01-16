@@ -1,0 +1,41 @@
+.dark-mode {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+}
+
+.input1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    /* margin: 100px; */
+}
+
+.input1>label {
+    margin-bottom: 30px;
+}
+
+form>button {
+    background-color: greenyellow;
+    border: none;
+    padding: 3px 150px;
+    font-family: monospace;
+    font-weight: bolder
+}
+
+.todos {
+    text-align: left;
+}
+
+.todos>li {
+    font-size: 24px;
+    font-family: monospace;
+    padding: 20px 0;
+}
+
+#id {
+    background-color: white;
+}
+
+
