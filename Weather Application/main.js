@@ -24,25 +24,25 @@ async function checkWeather(city) {
 
     switch (data.weather[0].main) {
       case "Clouds":
-        weatherIcon.src = "images/clouds.png";
+        weatherIcon.src = "assets/clouds.png";
         break;
       case "Clear":
-        weatherIcon.src = "images/clear.png";
+        weatherIcon.src = "assets/clear.png";
         break;
       case "Rain":
-        weatherIcon.src = "images/rain.png";
+        weatherIcon.src = "assets/rain.png";
         break;
       case "Drizzle":
-        weatherIcon.src = "images/drizzle.png";
+        weatherIcon.src = "assets/drizzle.png";
         break;
       case "Mist":
-        weatherIcon.src = "images/mist.png";
+        weatherIcon.src = "assets/mist.png";
         break;
       case "Snow":
-        weatherIcon.src = "images/snow.png";
+        weatherIcon.src = "assets/snow.png";
         break;
       default:
-        weatherIcon.src = "images/clouds.png";
+        weatherIcon.src = "assets/clouds.png";
         break;
     }
 
